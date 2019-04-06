@@ -1,0 +1,57 @@
+body{
+    user-select: none;
+}
+
+#game-field-container{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 768px;
+    height: 768px;
+    border: solid 1px #707070;
+    overflow: scroll;
+}
+#control-panel{
+    position: absolute;
+    left:808px;
+    top:20px;
+    width:216px;
+    height:728px;
+    padding:20px;
+    border: solid 1px #707070;
+}
+#color-wrapper{
+    width: 100%;
+    display: inline-block;
+}
+#colorbox{
+    width:32px;
+    height:16px;
+    display: inline-block;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+.tile, #phantom{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+}
+#phantom{
+    opacity: 0.5;
+}
+.tile.cross:not(.green), #phantom.cross{
+    background-image: url("cross.png");
+}
+.tile.circle:not(.green), #phantom.circle{
+    background-image: url("circle.png");
+}
+.tile.cross.green{
+    background-image: url("cross_green.png");
+}
+.tile.circle.green{
+    background-image: url("circle_green.png");
+}
+
+p{
+    margin: 0;
+}

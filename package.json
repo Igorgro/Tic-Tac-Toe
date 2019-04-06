@@ -1,0 +1,19 @@
+{
+    "name": "tic_tac_toe",
+    "version": "1.0.0",
+    "dependencies": {
+        
+    },
+    "main":"www/game.html",
+    "window": {
+        "title":"Tic tac toe",
+        "icon":"icon.png",
+        "width":1084,
+        "height":784,
+        "min_width":1084,
+        "min_height":784,
+        "max_width":1084,
+        "max_height":784
+    },
+    "chromium-args":"--disable-devtools"
+}
